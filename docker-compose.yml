@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  node:
+    container_name: node-express
+    image: danblundell/node-express
+    build:
+      context: .
+    ports:
+    - "3000:3000"
+    working_dir: /var/www/
+    volumes:
+    - .:/var/www
