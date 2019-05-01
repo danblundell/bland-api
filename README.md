@@ -1,7 +1,7 @@
 ## Getting started
 
 ### Prerequisites
-You need Docker and a text editor, pretty much it.
+You need [Docker](https://www.docker.com) and a text editor, pretty much it.
 
 ### Running
 1. Clone the repo
